@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lapfut</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Lapfut</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-4" href="#items">Items</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-4" href="#reviews">Reviews</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- hero-->
+    <section class="hero" id="home">
+    <div class="card bg-dark text-white text-center rounded-0 border-0">
+      <img src="assets/lapanganfutsal.jpg" class="card-img mx-0" alt="Lapangan Futsal" />
+      <div class="card-img-overlay text-center">
+        <h1 class="card-title">Futsal Yuk!</h1>
+        <p clas>Yaudah Kuy Maen Futsal</p>
+      </div>
+    </div>
+    </section>
+    <!-- end of hero -->
+
+    <!-- items -->
+    <section class="items py-5" id="items">
+      <div class="container">
+        <h2 class="section-title text-center">ITEMS</h2>
+        <p class="section-paragraph text-center">Berikut adalah beberapa item yang kami jual</p>
+        <div class="row justify-content-center gy-3">
+          <div class="col-md-4 col-lg-3">
+            <div class="card border-2 rounded">
+              <img src="assets/baju.png" class="card-img-top img-fluid rounded" alt="jersey">
+              <div class="card-body">
+                <h5 class="card-title">Jersey</h5>
+                <p class="card-text">Jersey bermotif yang unik dan keren.</p>
+                <a href="#" class="btn btn-primary">Rp. 150.000</a>
+              </div>
+            </div>
+          </div>          
+        <div class="col-md-4 col-lg-3">
+          <div class="card border-2 rounded">
+            <img src="assets/bola.png" class="card-img-top img-fluid rounded" alt="bola" />
+            <div class="card-body">
+              <h5 class="card-title">Bola</h5>
+              <p class="card-text">Bola dengan kualitas yang tinggi.</p>
+              <a href="#" class="btn btn-primary">Rp. 50.000</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="card border-2 rounded">
+            <img src="assets/sepatu.jpg" class="card-img-top img-fluid rounded" alt="sepatu" />
+            <div class="card-body">
+              <h5 class="card-title">Sepatu</h5>
+              <p class="card-text">Sepatu yang nyaman digunakan untuk bermain.</p>
+              <a href="#" class="btn btn-primary">Rp. 100.000</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of items -->
+
+    <!-- reviews -->
+    <section class="reviews vh-100" id="reviews" style="background-color: #eee;">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <p class="text-center">Reviews</p>
+          <div class="col col-lg-9 col-xl-7">
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body p-5">
+    
+                <div class="text-center mb-4 pb-2">
+                  <img src="assets/saptaji.jpeg"
+                    alt="Bulb" width="100">
+                </div>
+    
+                <figure class="text-center mb-0">
+                  <blockquote class="blockquote">
+                    <p class="pb-3">
+                      <i class="fas fa-quote-left fa-xs text-primary"></i>
+                      <span class="lead font-italic">Lapangannya sangat bagus sehingga bisa meningkatkan semangat untuk bermain futsal.</span>
+                      <i class="fas fa-quote-right fa-xs text-primary"></i>
+                    </p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer mb-0">
+                    Bayu Saptaji
+                  </figcaption>
+                </figure>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of reviews -->
+
+    <!-- footer -->
+    <footer class="bg-body-tertiary text-center text-lg-start">
+      <div class="text-center p-3">
+        Copyright © 2024. Latful
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
